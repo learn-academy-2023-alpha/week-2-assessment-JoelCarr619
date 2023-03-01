@@ -70,7 +70,7 @@ Const("0 is divisible by three", () => {
 })
 Const("-7 is divisible by three", () => {
     return object3 = { number: -7 };
-    expect(diviThree(object3)).toEqual("-7 is not a divisible by three");
+    expect(diviThree(object3)).toEqual("-7 is not a divisible by three")
 })
 
 
@@ -92,10 +92,10 @@ const randomNouns2 = ["temperature", "database", "chopsticks", "mango"]
 // Expected output: ["Temperature", "Database", "Chopsticks", "Mango"]
 
 const result1 = capLocks(randomNouns1);
-expect(result1).toEqual(["streetlamp","potato", "teeth", "conclusion", "nephew" ])
+expect(result1).toEqual(["streetlamp","potato", "teeth", "conclusion", "nephew"])
 
 const result2 = capLocks(randomNouns2);
-expect(result2).toEqual(["temperature", "database", "chopsticks", "mango" ])
+expect(result2).toEqual(["temperature", "database", "chopsticks", "mango"])
 
 // b) Create the function that makes the test pass.
 
