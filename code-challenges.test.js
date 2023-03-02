@@ -32,9 +32,9 @@
 // --------------------1) Create a function that takes a object as an argument and decides if the number inside it is evenly divisible by three or not.
 
 // Pseudo  Code:
-
-// Input: Creating a function that takes an object as an argument
-// Output: Decide if the number inside it is evenly divisible by three or not
+// Placing an object as input and returns a boolean value indicating whether the number inside the object is evenly divisible by three or not.
+//Using the % operator to compute the remainder of the number when divided by 3.
+//This should return true if the remainder is 0, and false otherwise.
 
 describe("diviThree", () => {
   return object.number % 3 === 0;    
@@ -78,6 +78,13 @@ Const("-7 is divisible by three", () => {
 
 
 // --------------------2) Create a function that takes in an array of words and returns an array with all the words capitalized.
+// Psuedo Code:
+// Adding an array of words and returns a new array with all the words capitalized
+// Using map() method to iterate over each word in the input array
+// capitalizing the first letter using the toUpperCase() method and appends the remaining letters using the slice() method
+// The toEqual() method is used to compare the two arrays element-wise
+
+
 
 function capLocks (arr) {
     return arr.map(word => word.chartAt(0).toUpperCase() + word.slice(1))

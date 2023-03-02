@@ -55,12 +55,12 @@ JavaScript Hoisting refers to the process whereby the interpreter appears to mov
 
 Research and define the following terms to the best of your ability.
 
-1. Classes: 
+1. Classes: Classes are encapsulate data with code to wok on specific data. 
 
-2. Spread operator:
+2. Spread operator: Spread operator takes in an iteration and expands it into an individual elements.
 
-3. React state:
+3. React state: React state is used to contain data for information about the components
 
-4. React props:
+4. React props: React props are a type of object where the value of attributes of a tag in stored.
 
-5. DOM events:
+5. DOM events: DOM events represents the page so that programs can change the document structure, style, and content
